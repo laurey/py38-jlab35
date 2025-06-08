@@ -1,0 +1,25 @@
+include LICENSE
+include README.md
+include pyproject.toml
+include reverse_proxy_extension/*
+
+recursive-include jupyter-config *.json
+
+include package.json
+include ts*.json
+include install.json
+# graft reverse_proxy_extension/labextension
+# graft reverse_proxy_extension/public
+
+# Javascript files
+# graft src
+# graft style
+prune **/node_modules
+prune lib
+
+# Patterns to exclude from any directory
+global-exclude *~
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .git
+global-exclude .ipynb_checkpoints

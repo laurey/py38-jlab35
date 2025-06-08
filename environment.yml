@@ -1,0 +1,9 @@
+name: py38-jl351
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab>=3.2.0,<3.8.0
+  - nodejs=18
+  - python=3.8
+  - yarn=1

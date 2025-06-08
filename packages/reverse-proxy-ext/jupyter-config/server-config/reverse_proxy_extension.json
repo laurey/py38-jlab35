@@ -1,0 +1,7 @@
+{
+  "ServerApp": {
+    "jpserver_extensions": {
+      "reverse_proxy_extension": true
+    }
+  }
+}

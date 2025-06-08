@@ -1,0 +1,5 @@
+{
+  "packageManager": "python",
+  "packageName": "reverse_proxy_extension",
+  "uninstallInstructions": "Use your Python package manager (pip, conda, etc.) to uninstall the package reverse_proxy_extension"
+}
